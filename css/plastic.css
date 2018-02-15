@@ -17,15 +17,23 @@ body{
 	width: 100%;
 	height: 10mm;
 	background:url(../image/plastic-itself.png) no-repeat left center #00a0e9;
-	background-size:40px 40px
+	background-size:40px 40px;
+	background-position: 40px
 }
 .title-itself{
 	align-content:center;
-	padding-left: 50px;
+	padding-left: 40px;
 	font-size:30px;
 	color: white;
 }
 .plastic-card h1{
 	color:#FFFFFF;
 }
-.plastic-card 
+.plastic-card{ 
+
+}
+
+.titlebar-drawer {
+	background:url(../image/drawer-icon.png);
+	background-size:40px 40px;
+}
