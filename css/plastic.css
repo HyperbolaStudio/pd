@@ -2,25 +2,34 @@
 /* CSS Document */
 /*南无阿弥陀佛 佛祖保佑无bug*/
 body{
-	font-family:arial;
+	font-family:source code pro;
 }
 .hub{
 	background:#cccccc;
 }
 .nounderlinehyperlink{
 	text-decoration:none;
+	color: white;
+}
+.textlink:link{
+	color:inherit;
+	text-decoration: underline
+}
+.textlink:visited{
+	color:inherit;
+	text-decoration: underline
 }
 .plastic-titlebar{
-	-moz-box-shadow:0px 0px 12px #333333; 
-	-webkit-box-shadow:0px 0px 12px #333333; 
-	box-shadow:0px 0px 12px #333333;
-	width: 100%;
+	-moz-box-shadow:0px 0px 20px #333333; 
+	-webkit-box-shadow:0px 0px 20px #333333; 
+	box-shadow:0px 0px 20px #333333;
+	width:100%;
 	height: 40px;
 	background:url(../image/plastic-itself.png) no-repeat left center #00a0e9;
 	background-size:40px 40px;
 	background-position: 40px;
 	border-radius:10px 10px;
-	position: fixed;
+	/*position: fixed;*/
 }
 .t_down{
 	position: none;
@@ -30,11 +39,44 @@ body{
 	padding-left: 40px;
 	font-size:30px;
 	color: white;
+	float:left;
+	padding-top: 1px;
 }
-.plastic-card h1{
+img.plastic-style{
+	align: right;
+	width:300px;
+	height:300px;
+	
+}
+h2.plastic-style{
 	color:#FFFFFF;
+	text-align:center;
 }
-.plastic-card{ 
+h1.plastic-style{
+	color:#222222;
+}
+p.plastic-style{
+	color:#cccccc
+}
+.plastic-card-left{ 
+	width:49.5%;
+	height: 600px;
+	background: #222222;
+	border-radius:10px 10px;
+	-moz-box-shadow:0px 0px 12px #333333; 
+	-webkit-box-shadow:0px 0px 12px #333333; 
+	box-shadow:0px 0px 12px #333333;
+	float:left;
+}
+.plastic-card-right{ 
+	width:49.5%;
+	height: 600px;
+	background: #222222;
+	border-radius:10px 10px;
+	-moz-box-shadow:0px 0px 12px #333333; 
+	-webkit-box-shadow:0px 0px 12px #333333; 
+	box-shadow:0px 0px 12px #333333;
+	float:right;
 
 }
 
@@ -46,4 +88,19 @@ body{
 }
 .title-bar-icon:hover {
 	background-color:#3c6b81;
+}
+.card-image {
+	text-align: center;
+}
+.abutton{
+	line-height: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height:40px;
+	background: #00a0e9;
+	border-radius:10px 10px;
+	-moz-box-shadow:0px 0px 8px #333333; 
+	-webkit-box-shadow:0px 0px 8px #333333; 
+	box-shadow:0px 0px 8px #333333;
 }
