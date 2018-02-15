@@ -99,8 +99,11 @@ p.plastic-style{
 	margin-right: auto;
 	height:40px;
 	background: #00a0e9;
-	border-radius:10px 10px;
+	border-radius:5px 5px;
 	-moz-box-shadow:0px 0px 8px #333333; 
 	-webkit-box-shadow:0px 0px 8px #333333; 
 	box-shadow:0px 0px 8px #333333;
+}
+.abutton:hover{
+	background: #3c6b81;
 }
