@@ -5,18 +5,29 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/plastic.css" type="text/css" />
 <title>Plastic Design</title>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		window.onscroll = function(){ 
+			 var t = document.documentElement.scrollTop || document.body.scrollTop;  //获取距离页面顶部的距离
+			if(t<=40){
+				var div = document.getElementById('d1'); 
+				div.setAttribute("class", "plastic-titlebar t_down"); 
+			}
+		}
+	</script>
 </head>
 
 <body class="hub">
 	<a name="top"></a>
-	<header class="plastic-titlebar" role="banner">
+	<header id="d1" class="plastic-titlebar" role="banner">
 		<div><!--This is a fucking div including header contents-->
-			<a href=""><img src="image/drawer-icon.png" width="40px" align="left" /></a>
+			<a href=""><img class="title-bar-icon" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" /></a>
 			<a class="nounderlinehyperlink title-itself" href="#top">Plastic Design</a>
-			<a href=""><embed src="image/ic_search_48px.svg" width="40px" align="right" hspace="5px"></a>
+			<a href=""><embed class="title-bar-icon" src="image/ic_search_48px.svg" align="right"></a>
 		</div>
 	</header>
 	<!--分割线-->
+	
 	<div class="plastic-card">
 		
 	</div>
