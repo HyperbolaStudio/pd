@@ -3,6 +3,8 @@
 /*南无阿弥陀佛 佛祖保佑无bug*/
 body{
 	font-family:source code pro;
+	min-width: 445px;
+	width:expression(document.body.clientWidth < 445? "445px": "auto" ); 
 }
 .hub{
 	background:#cccccc;
@@ -59,7 +61,7 @@ p.plastic-style{
 	color:#cccccc;
 	display:table-cell;   
 }
-.plastic-card-left{ 
+.main-plastic-card{ 
 	width:49.5%;
 	height: 550px;
 	background: #222222;
@@ -69,7 +71,7 @@ p.plastic-style{
 	box-shadow:0px 0px 12px #333333;
 	float:left;
 }
-.plastic-card-right{ 
+.branch-plastic-card{ 
 	width:49.5%;
 	height: 550px;
 	background: #222222;
@@ -78,9 +80,13 @@ p.plastic-style{
 	-webkit-box-shadow:0px 0px 12px #333333; 
 	box-shadow:0px 0px 12px #333333;
 	float:right;
-
 }
-
+.left-card{
+	float:left
+}
+.right-card{
+	float:right
+}
 .title-bar-icon {
 	background-color: none;
 	width:40px;
