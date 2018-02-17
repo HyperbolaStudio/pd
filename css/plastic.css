@@ -43,7 +43,7 @@ body{
 }
 img.plastic-style{
 	align: right;
-	width:40%;
+	width:20%;
 	height:auto;
 	
 }
@@ -65,14 +65,14 @@ p.plastic-style{
 	box-shadow:0px 0px 12px #333333;
 	float:left;
 	margin-bottom: 10px;
-	margin-left: 1%
+	margin-left: 1%;
+	text-align: center;
 }
 .main{
 	background: #222222;
 }
 .branch{ 
 	background: #444444;
-	height: 380px;
 }
 .left-card{
 	float:left
