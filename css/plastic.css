@@ -3,7 +3,7 @@
 /*南无阿弥陀佛 佛祖保佑无bug*/
 body{
 	font-family:source code pro;
-	min-width: 600px; 
+	min-width: 800px; 
 }
 .hub{
 	background:#cccccc;
@@ -28,7 +28,6 @@ body{
 	background-size:40px 40px;
 	background-position: 40px;
 	border-radius:10px 10px;
-	/*position: fixed;*/
 }
 .t_down{
 	position: none;
@@ -60,7 +59,7 @@ p.plastic-style{
 }
 .plastic-card{ 
 	width:49%;
-	height: 550px;
+	height: 480px;
 	border-radius:10px 10px;
 	box-shadow:0px 0px 12px #333333;
 	float:left;
@@ -73,6 +72,7 @@ p.plastic-style{
 }
 .branch{ 
 	background: #444444;
+	height: 320px;
 }
 .left-card{
 	float:left
@@ -107,4 +107,15 @@ p.plastic-style{
 .abutton:hover{
 	font-size: 17px;
 	box-shadow: 0px 0px 30px #333333;;
+}
+.maininterface{
+	float: right;
+}
+.div-draweropen {
+	margin-left: 320px
+}
+
+.drawer {
+	background:#000000;
+	box-shadow: 0px 0px 12px #333333
 }

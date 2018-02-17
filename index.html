@@ -5,23 +5,17 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/plastic.css" type="text/css" />
 <title>Plastic Design</title>
-	<!---script type="text/javascript" src="js/main.js"></script>
-	<script>
-		window.onscroll = function(){ 
-			 var t = document.documentElement.scrollTop || document.body.scrollTop;  //获取距离页面顶部的距离
-			if(t<=40){
-				var div = document.getElementById('d1'); 
-				div.setAttribute("class", "plastic-titlebar t_down"); 
-			}
-		}
-	</script-->
+<script type="text/javascript" src="js/main.js"></script>
+	
 </head>
 <body class="hub">
-	<div title="main">
+
+
+	<div class="maininterface div-draweropen" id="main" title="main">
 		<a name="top"></a>
 		<div class="plastic-titlebar" style="background-image: url(image/plastic-itself.png)">
 			<div>
-				<a href=""><img class="title-bar-icon" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" /></a>
+				<a href="drawerclick()"><img class="title-bar-icon" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" /></a>
 				<a class="nounderlinehyperlink title-itself" href="#top">Plastic Design</a>
 				<a href=""><embed class="title-bar-icon" src="image/ic_search_48px.svg" align="right"></a>
 				<a href=""><embed class="title-bar-icon" src="image/ic_language_48px.svg" align="right"></a>
