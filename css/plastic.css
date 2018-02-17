@@ -3,8 +3,7 @@
 /*南无阿弥陀佛 佛祖保佑无bug*/
 body{
 	font-family:source code pro;
-	min-width: 445px;
-	width:expression(document.body.clientWidth < 445? "445px": "auto" ); 
+	min-width: 445px; 
 }
 .hub{
 	background:#cccccc;
@@ -74,7 +73,7 @@ p.plastic-style{
 .branch-plastic-card{ 
 	width:49.5%;
 	height: 550px;
-	background: #333333;
+	background: #444444;
 	border-radius:10px 10px;
 	-moz-box-shadow:0px 0px 12px #333333; 
 	-webkit-box-shadow:0px 0px 12px #333333; 
