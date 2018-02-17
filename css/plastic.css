@@ -112,10 +112,23 @@ p.plastic-style{
 	float: right;
 }
 .div-draweropen {
-	margin-left: 320px
+	margin-left: 72mm
 }
 
 .drawer {
-	background:#000000;
-	box-shadow: 0px 0px 12px #333333
+	box-shadow: 0px 0px 12px #333333;
+	float:left;
+	width:70mm;
+	border-radius:10px 10px;
+	height: 100%;
+}
+.drawer-title{
+	height:40px;
+	border-radius:10px 10px;
+	background-color:#00A0E9;
+	font-size: 30px;
+	color: white;
+}
+.drawer-title:hover{
+	box-shadow: 0px 0px 30px #333333
 }
