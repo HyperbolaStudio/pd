@@ -7,6 +7,14 @@ $(document).ready(function(){
 		$("#mask").hide();
 		$("#drawer").hide(500);
 	});
+	$(".drawer-title").click(function(){
+		$("#mask").hide();
+		$("#drawer").hide(500);
+	});
+	$(".drawer-item").click(function(){
+		$("#mask").hide();
+		$("#drawer").hide(500);
+	});
 	$("#dwclick").click(function(){
 		$("#mask").show();
 		$("#drawer").show(500);
