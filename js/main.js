@@ -2,7 +2,7 @@
 //南无阿弥陀佛 佛祖保佑无bug
 $(document).ready(function(){
 	$("#mask").hide();
-	$("#drawer").hide(500);
+	$("#drawer").hide();
 	$("#mask").click(function(){
 		$("#mask").hide();
 		$("#drawer").hide(500);
