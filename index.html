@@ -6,65 +6,66 @@
 <link rel="stylesheet" href="css/plastic.css" type="text/css" />
 <title>Plastic Design</title>
 <script src="jquery/jquery.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/drawer.js"></script>
 </head>
 <body class="hub">
-	<div class="drawer" id="drawer">
+	<div class="drawer" id="drawer" style="left:-300px;">
 		<div class="drawer-title">
-			<a href="#top" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/plastic-itself.png" alt="plastic" />Plastic Design</a>
+			<a href="index.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/plastic-itself.png" alt="plastic" />Plastic Design</a>
 		</div>
 		<div class="drawer-title">
 			<a href="#feature" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/Feature-icon.png" alt="Feature" />Feature</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/video-icon.png" alt="video" />Idea video</a>
+			<a href="占位video" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/video-icon.png" alt="video" />Idea video</a>
 		</div>
 		<div class="drawer-item">
-			<a href="#" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/github-icon.png" alt="github" />Visit Github</a>
+			<a href="占位github" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/github-icon.png" alt="github" />Visit Github</a>
 		</div>
 		<div class="drawer-title">
 			<a href="#resource" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/resource-icon.png" alt="Feature" />Resource</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/guideline-icon.png" alt="guidelines" />Guidelines</a>
+			<a href="guidelines.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/guideline-icon.png" alt="guidelines" />Guidelines</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/gallery-icon.png" alt="gallery" />Exhibition</a>
+			<a href="exhibition.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/gallery-icon.png" alt="gallery" />Exhibition</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/icon-icon.png" alt="icons" />Icons</a>
+			<a href="icons.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/icon-icon.png" alt="icons" />Icons</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/component-icon.png" alt="components" />Components</a>
+			<a href="components.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/component-icon.png" alt="components" />Components</a>
 		</div>
 		<div class="drawer-title">
 			<a href="#tools" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/tools-icon.png" alt="tools" />Tools</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/color-icon.png" alt="color" />Colour Picker</a>
+			<a href="colour.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/color-icon.png" alt="color" />Colour Picker</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/resizer-icon.png" alt="resizer" />Resizer</a>
+			<a href="resizer.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/resizer-icon.png" alt="resizer" />Resizer</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/demo-icon.png" alt="demo" />Demo</a>
+			<a href="demo.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/demo-icon.png" alt="demo" />Demo</a>
 		</div>
 		<div class="drawer-item">
-			<a href="" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/code-icon.png" alt="dev" />Dev &amp; Debug</a>
+			<a href="dev.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/code-icon.png" alt="dev" />Dev &amp; Debug</a>
 		</div>
 	</div>
-	<div class="mask" id="mask"></div>
+	<div class="mask" id="mask" style="display: none;"></div>
 	<a name="top"></a>
 	<header>
-		<div class="plastic-titlebar" style="background-image: url(image/plastic-itself.png)">
-			<a id="dwclick"><img class="title-bar-icon" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" /></a>
+		<div id="plastic-titlebar" style="">
+			<img class="title-bar-icon" id="dwclick" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" />
 			<a class="nounderlinehyperlink title-itself" href="#top">Plastic Design</a>
 			<a href=""><embed class="title-bar-icon" src="image/ic_search_48px.svg" align="right"></a>
 			<a href=""><embed class="title-bar-icon" src="image/ic_language_48px.svg" align="right"></a>
 		</div>
 	</header>
+	<br/><br/>
 	<main>
-		<div id="main" title="main">
+		<div id="main">
 			<p title="feature">
 				<a name="feature"><h1 class="plastic-style">Feature</h1></a>
 				<div class="main plastic-card left-card">
@@ -82,8 +83,8 @@
 				<div class="card-image">
 					<img class="plastic-style" src="image/hs-icon.png" alt="hyperbola"/>
 				</div>
-				<p class="plastic-style" > It's an open source project, meaning you can clone it, modify it, and even republish it arbitrarily. We welcome your use of it in your projects, even without having to mention that we made it (best to confide it on the "About" page, but it is not required.).<br>
-				  <a class="abutton nounderlinehyperlink">Visit Github</a> </p>
+				<p class="plastic-style"> It's an open source project, meaning you can clone it, modify it, and even republish it arbitrarily. We welcome your use of it in your projects following open source license.<br/>
+				<a class="abutton nounderlinehyperlink">Visit Github</a></p>
 			</div>
 		</p>
 			<p title="Resource">
@@ -93,9 +94,9 @@
 					  <div class="card-image">
 							<img class="plastic-style" src="image/guideline-icon.png" alt="guideline"/>
 						</div>
-					  <p class="plastic-style" > A easy-understood document, about Plastic Design visual, interactive and motion.<br>
-						(PDF format provided)<br>
-						<a class="abutton nounderlinehyperlink">Read the article</a> </p>
+					  <p class="plastic-style"> A documentabout Plastic Design visual, interactive and motion.<br/>
+					    (PDF format provided)<br/>
+ 						 <a class="abutton nounderlinehyperlink">Read the article</a></p>
 				</div>
 				<div class="branch plastic-card right-card">
 				  <h2 class="plastic-style">Exhibition</h2>
@@ -166,18 +167,18 @@
 	</div>
 	</main>
 	<footer>
-		<div class="footer" id="footer">
+		<div id="footer">
 			<img class="footer-logo" src="image/HS_HS.png" alt="hyperbola studio" /><br/>
 			<div class="innerlink">
-				<a class="footer-link nounderlinehyperlink" href="">About Plastic Design</a>
-				<a class="footer-link nounderlinehyperlink" href="">Privacy &amp; Terms</a>
-			</div>
+				<a class="footer-link nounderlinehyperlink" href="about.html">About Plastic Design</a>
+				<a class="footer-link nounderlinehyperlink" href="licence-view.html">Open Source Licence</a>
+			</div><br/>
 			<div class="sociallink">
 				<span style="color:white">Connect:</span>
 				<a class="footer-link nounderlinehyperlink" href="">Twitter</a>
 				<a class="footer-link nounderlinehyperlink" href="">Youtube</a>
 				<a class="footer-link nounderlinehyperlink" href="">Weibo</a>
-				<a class="footer-link nounderlinehyperlink" href="">Wechat</a>
+				<a class="footer-link nounderlinehyperlink" href="image/qrwechat.png">Wechat</a>
 				<a class="footer-link nounderlinehyperlink" href="">Bilibili</a>
 			</div>
 		</div>

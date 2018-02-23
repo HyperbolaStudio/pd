@@ -4,9 +4,8 @@
 body{
 	font-family:source code pro;
 	min-width: 800px; 
-}
-.hub{
 	background:#cccccc;
+	margin: 0px;
 }
 .nounderlinehyperlink{
 	text-decoration:none;
@@ -20,14 +19,15 @@ body{
 	color:inherit;
 	text-decoration: underline
 }
-.plastic-titlebar{
+header{
 	box-shadow:0px 0px 20px black;
 	width:100%;
 	height: 40px;
-	background:no-repeat left center #00a0e9;
-	background-size:40px 40px;
+	border-radius:0px 0px 10px 10px;
+	background:#00a0e9 no-repeat left center url(../image/plastic-itself.png);
 	background-position: 40px;
-	border-radius:10px 10px;
+	background-size: 40px;
+	position: fixed;
 }
 .t_down{
 	position: none;
@@ -58,7 +58,7 @@ p.plastic-style{
 }
 .plastic-card{ 
 	width:49.7%;
-	height: 520px;
+	height: 480px;
 	border-radius:10px 10px;
 	box-shadow:0px 0px 12px black;
 	margin-bottom: 8px;
@@ -151,14 +151,13 @@ p.plastic-style{
 	height: 100%;
 	z-index: 1000;
 }
-.footer {
+footer {
 	background-color: rgba(34,34,34,1);
 	height:64mm;
 	width:100%;
-	border-radius:10px 10px;
+	border-radius:10px 10px 0px 0px;
 	box-shadow:0px 0px 12px black;
 	float:left;
-	margin-bottom: 8px;
 	box-sizing:content-box;
 }
 .footer-logo{
@@ -173,7 +172,6 @@ p.plastic-style{
 
 .innerlink {
 	padding-left: 32px;
-	float:left;
 }
 
 .footer-link:hover {
@@ -181,5 +179,11 @@ p.plastic-style{
 }
 
 .sociallink {
-	float:right;
+	padding-left: 32px;
 }
+
+main {
+	margin:0px 8px 8px 8px;
+}
+
+
