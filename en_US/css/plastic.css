@@ -28,6 +28,7 @@ header{
 	background-position: 40px;
 	background-size: 40px;
 	position: fixed;
+	min-width: 400px;
 }
 .t_down{
 	position: none;
@@ -77,6 +78,9 @@ p.plastic-style{
 .right-card{
 	float:right
 }
+.small {
+	height: 260px;
+}
 .title-bar-icon {
 	background-color: none;
 	width:40px;
@@ -110,8 +114,8 @@ p.plastic-style{
 	margin-left: 72mm;
 }
 
-.drawer {
-	box-shadow: 0px 0px 12px black;
+#drawer {
+	box-shadow: 0px 0px 30px black;
 	background: #cccccc;
 	width:270px;
 	height: 100%;
@@ -185,8 +189,15 @@ footer {
 main {
 	margin:0px 8px 8px 8px;
 }
-.normaltext ｛
-	text-indent:2em;
-｝
 
-
+#langselect {
+	width:400px;
+	height: 200px;
+	position: fixed;
+	top:40px;
+	right:10px;
+	padding: 1em;
+	background: inherit;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px #000000
+}
