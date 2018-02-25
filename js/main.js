@@ -1,0 +1,29 @@
+// JavaScript Document
+//南无阿弥陀佛 佛祖保佑无bug
+$(document).ready(function(){
+	$("#mask").hide();
+	$("#drawer").animate({left:"-300px"},500);
+	$("#mask").click(function(){
+		$("#mask").hide();
+		$("#drawer").animate({left:"-300px"},500);
+		setTimeout("$('#drawer').hide()",500);
+	});
+	$(".drawer-title").click(function(){
+		$("#mask").hide();
+		$("#drawer").animate({left:"-300px"},500);
+		$("#drawer").hide();
+		setTimeout("$('#drawer').hide()",500);
+	});
+	$(".drawer-item").click(function(){
+		$("#mask").hide();
+		$("#drawer").animate({left:"-300px"},500);
+		$("#drawer").hide();
+		setTimeout("$('#drawer').hide()",500);
+	});
+	$("#dwclick").click(function(){
+		$("#mask").show();
+		$("#drawer").animate({left:"-270px"},0);
+		$("#drawer").show();
+		$("#drawer").animate({left:"0px"},500);
+	});
+});
