@@ -26,4 +26,22 @@ $(document).ready(function(){
 	$("#backclick").click(function(){
 		history.back();
 	});
+	$("#langbutton").click(function(){
+		if($("#langselect").css("display")=="none"){
+			$("#langselect").show(500);
+		}else{
+			$("#langselect").hide(500);
+		};			  
+	});
+	$("#langOK").click(function(){
+		var language=$("#lang").val()
+		switch(language){
+			case "en_US":
+				window.location.href="../en_US/index.html";
+				break;
+			case "zh_CN":
+				window.location.href="../zh_CN/index.html";
+				break;
+		}
+	})
 });

@@ -191,8 +191,8 @@ main {
 }
 
 #langselect {
-	width:400px;
-	height: 200px;
+	width:200px;
+	height: px;
 	position: fixed;
 	top:40px;
 	right:10px;

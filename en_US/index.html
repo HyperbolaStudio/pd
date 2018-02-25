@@ -59,17 +59,18 @@
 		<div id="plastic-titlebar" style="">
 			<img class="title-bar-icon" id="dwclick" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" />
 			<a class="nounderlinehyperlink title-itself" href="#top">Plastic Design</a>
-			<a href=""><embed class="title-bar-icon" src="image/ic_search_48px.svg" align="right"></a>
-			<a href=""><embed class="title-bar-icon" src="image/ic_language_48px.svg" align="right"></a>
+			<img class="title-bar-icon" src="image/ic_search_48px.svg" align="right">
+			<img class="title-bar-icon" id="langbutton" src="image/ic_language_48px.svg" align="right">
 		</div>
 	</header>
-	<div id="langselect">
+	<div id="langselect" style="display:none">
 		Select a language:<br/><br/>
 		<form>
-			<select name="lang">
+			<select name="lang" id="lang">
 				<option name="zh_CN">Simplified Chinese(zh_CN)</option>
 				<option name="en_US" selected="selected">English(en_US)</option>
 			</select>
+			<button id="langOK">OK</button>
 		</form>
 	</div>
 	<br/><br/>
