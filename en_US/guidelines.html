@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/plastic.css" type="text/css" />
 <title>Guidelines</title>
-<script src="jquery/jquery.js"></script>
+<script src="../jquery/jquery.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
-	<div class="drawer" id="drawer" style="left:-300px;">
+		<div id="drawer" style="left:-300px;">
 		<div class="drawer-title">
 			<a href="index.html" class="nounderlinehyperlink"><img class="indrawer-icon" src="image/plastic-itself.png" alt="plastic" />Plastic Design</a>
 		</div>
@@ -54,18 +54,29 @@
 		</div>
 	</div>
 	<div class="mask" id="mask" style="display: none;"></div>
+	<a name="top"></a>
 	<header style="background-image: none">
-		<div id="plastic-titlebar" style="">
+		<div id="plastic-titlebar">
 			<img class="title-bar-icon" id="dwclick" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" />
 			<a class="nounderlinehyperlink title-itself" href="#top">Guidelines</a>
-			<a href=""><embed class="title-bar-icon" src="image/ic_search_48px.svg" align="right"></a>
-			<a href=""><embed class="title-bar-icon" src="image/ic_language_48px.svg" align="right"></a>
+			<img class="title-bar-icon" src="image/ic_search_48px.svg" align="right">
+			<img class="title-bar-icon" id="langbutton" src="image/ic_language_48px.svg" align="right">
 		</div>
 	</header>
+	<div id="langselect" style="display:none">
+		Select a language:<br/><br/>
+		<form>
+			<select name="lang" id="lang">
+				<option name="zh_CN">Simplified Chinese(zh_CN)</option>
+				<option name="en_US" selected="selected">English(en_US)</option>
+			</select>
+			<button id="langOK">OK</button>
+		</form>
+	</div>
 	<br/><br/>
 	<main>
 		<div id="main" >
-			<p class="normaltext" title="introduction">
+			<p title="introduction">
 				<a name="introduction"><h1 class="plastic-style">Introduction</h1></a>
 				<div class="small main plastic-card left-card">
 					<h2 class="plastic-style">What is this</h2>
@@ -79,7 +90,22 @@
 					<p class="plastic-style">
 						<img src="image/pdf.png" width="150px" align="left" alt="pdf" />
 						Guidelines-Plastic Design.pdf<br/>
-						<a class="abutton nounderlinehyperlink" href="">download</a>
+						<a class="abutton nounderlinehyperlink" href="">Download</a>
+					</p>
+				</div>
+			</p>
+			<p title="Goals">
+				<a name="Goals"><h1 class="plastic-style">Goals</h1></a>
+				<div class="small main plastic-card left-card">
+					<h2 class="plastic-style">Our purpose</h2>
+					<p class="plastic-style"> 
+						We challenge to combine brilliant design principles and innovative technology.We create a simple underlying system that allows cross-platform developing.We have a unique principle of the motion of elements and the input method like touch, voice, mouse, and keyboard of users,as well as stipulate how the user's actions affect the movement of the element.
+					</p>
+				</div>
+				<div class="small main plastic-card right-card">
+					<h2 class="plastic-style">The future……</h2>
+					<p class="plastic-style"> 
+						Plastic design is a UI design, but can we use it in reality? 
 					</p>
 				</div>
 			</p>
