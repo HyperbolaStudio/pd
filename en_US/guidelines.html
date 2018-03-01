@@ -57,10 +57,11 @@
 	<a name="top"></a>
 	<header style="background-image: none">
 		<div id="plastic-titlebar">
-			<img class="title-bar-icon" id="dwclick" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left" />
+			<img class="title-bar-icon" id="dwclick" src="image/drawer-icon.png" alt="icon-icon" width="40px" align="left"/>
 			<a class="nounderlinehyperlink title-itself" href="#top">Guidelines</a>
-			<img class="title-bar-icon" src="image/ic_search_48px.svg" align="right">
-			<img class="title-bar-icon" id="langbutton" src="image/ic_language_48px.svg" align="right">
+			<img class="title-bar-icon" src="image/ic_search_48px.svg" align="right" alt="search"/>
+			<img class="title-bar-icon" id="langbutton" src="image/ic_language_48px.svg" align="right" alt="language"/>
+			<img class="title-bar-icon" id="contentbutton" src="image/content-icon.svg" align="right" alt="content"/>
 		</div>
 	</header>
 	<div id="langselect" style="display:none">
@@ -71,6 +72,21 @@
 				<option name="en_US" selected="selected">English(en_US)</option>
 			</select>
 			<button id="langOK">OK</button>
+		</form>
+	</div>
+	<div id="content" style="display:none">
+		Jump to:<br/><br/>
+		<form>
+			<select name="cont" id="cont">
+				<option name="introduction">Introduction</option>
+				<option name="goals">Goals</option>
+				<option name="environment">Enviornment</option>
+				<option name="elements">Elements</option>
+				<option name="motion">Motion</option>
+				<option name="style">style</option>
+				<option name="interaction">Interaction</option>
+			</select>
+			<button id="contjump">Jump</button>
 		</form>
 	</div>
 	<br/><br/>
